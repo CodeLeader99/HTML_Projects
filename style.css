@@ -1,0 +1,29 @@
+h1 {
+  text-align: center;
+}
+.container {
+  display: flex;
+  background: red;
+  height: 50vh;
+  width: 22vw;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+}
+.dis {
+  width: 190px;
+  height: 34px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+.container.btns.row {
+  display: flex;
+  flex-direction: row;
+}
+button {
+  padding: 15px;
+  border: 3px solid black;
+  border-radius: 5px;
+  margin: 2px 0px;
+  width: 46px;
+}
